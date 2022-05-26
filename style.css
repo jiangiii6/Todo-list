@@ -13,14 +13,13 @@ body{
     align-items: center;
 
 }
+
+
 header{
     margin-top: 2rem;
 }
 #content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     width: 80%;
 }
 
@@ -30,5 +29,10 @@ header{
     margin-top: 3rem;
     border: 1px lightskyblue solid;
     padding: 1rem;
+}
+
+p:first-child{
+    background: #CBC3E3;
+    width:9%;
 }
 
